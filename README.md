@@ -11,7 +11,7 @@ Arduino Sample Code
 GUI Code and GUI Installer
 
 Software:
-Arduino IDE V1.1.1 for Arduino sample code
+Arduino IDE V1.8.1 for Arduino sample code
 Visual Studio Express 2015 for GUI sample code
 Hardware:
 Shiel-servo and Arduino
