@@ -1,19 +1,19 @@
-# Cytron_Servo_Shield
-Example project code for Cytron Servo Shield
+# Arduino Library for Cytron Servo Shield
+Arduino Library for Cytron Servo Shield
 
-## Description:
-This is sample code for Cytron Hat-MDD10. 
+> Check our product SHIELD-SERVO [here](https://www.cytron.com.my/p-shield-servo)
 
-## Folder in this repo:
-* Arduino Sample Code
-* GUI Code and GUI Installer
+## Requirement:
+### Hardware
+* Cytron Servo Shield
+* Arduino-compatible boards (e.g. Arduino Uno)
+### Software:
+* Arduino IDE V1.8.1
 
-## Software:
-* Arduino IDE V1.8.1 for Arduino sample code
-* Visual Studio Express 2015 for GUI sample code
-
-## Hardware:
-* Shield-servo and Arduino
-* Shield servo with UC00C/UC00A if user want to use standalone shield with PC/Laptop
+## Extras:
+We also provide GUI interface and sample code for users who want to use standalone shield with PC only.
+### Requirements:
+* Hardware - USB-to-Serial Adapter [UC00C](https://www.cytron.com.my/p-uc00c)/[UC00A](https://www.cytron.com.my/p-uc00a) if user want to use standalone shield with PC/Laptop (Optional)
+* Software - Visual Studio Express 2015 and above
 
 Welcome to our [technical forum](http://forum.cytron.com.my/) for further inquiry.
