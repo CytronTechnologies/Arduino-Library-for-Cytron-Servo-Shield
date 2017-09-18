@@ -11,7 +11,7 @@ Arduino Library for Cytron Servo Shield
 * Arduino IDE V1.8.1
 
 ## Extras:
-We also provide GUI interface and sample code for users who want to use standalone shield with PC only.
+We also provide GUI interface and sample code for users who want to use standalone shield with PC only. You can checkout our visual-basic branch [here](https://github.com/CytronTechnologies/Arduino-Library-for-Cytron-Servo-Shield/tree/visual-basic).
 ### Requirements:
 * Hardware - USB-to-Serial Adapter [UC00C](https://www.cytron.com.my/p-uc00c)/[UC00A](https://www.cytron.com.my/p-uc00a) if user want to use standalone shield with PC/Laptop (Optional)
 * Software - Visual Studio Express 2015 and above
