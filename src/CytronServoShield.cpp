@@ -192,7 +192,7 @@ void CytronServoShield::set_ch_initial_pos(unsigned char ch, unsigned int pos){
 
 int CytronServoShield::getResponseFromCmd(uint8_t *buf, uint16_t len){
 
-	int timeout = millis();
+	uint32_t timeout = millis();
 	uint16_t _start = 0;
 	while(millis() - timeout < CYTRON_SHIELD_SERVO_TIMEOUT){
 		if(_serial->available()){
@@ -213,7 +213,7 @@ int CytronServoShield::getResponseFromCmd(uint8_t *buf, uint16_t len){
 
 int CytronServoShield::getResponseFromCmdUntil(unsigned char terminator){
 
-	int timeout = millis();
+	uint32_t timeout = millis();
 	uint16_t _start = 0;
 	while(millis() - timeout < CYTRON_SHIELD_SERVO_TIMEOUT + 4800){ // 5s
 		if(_serial->available()){
