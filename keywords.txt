@@ -12,41 +12,20 @@ CytronServoShield	KEYWORD1
 # Methods and Functions (KEYWORD2)
 #######################################
 
-play 	KEYWORD2
-next	KEYWORD2
-prev	KEYWORD2 
-setVolume	KEYWORD2
-setEQ	KEYWORD2
-setDevice	KEYWORD2
-sleep	KEYWORD2 
-reset	KEYWORD2
-pause	KEYWORD2 
-stop	KEYWORD2 
-on	KEYWORD2
-off	KEYWORD2
-playAll	KEYWORD2
-playTrack	KEYWORD2
-getCurrentDevice	KEYWORD2
-getCurrentStatus	KEYWORD2
-getVolume	KEYWORD2
-getTotalFiles	KEYWORD2
-getTrackNo	KEYWORD2
-repeatTrack	KEYWORD2
-randomPlay	KEYWORD2
-playTrackFromFolder	KEYWORD2
-playFolderRepeat	KEYWORD2
-setErrorCallback	KEYWORD2
-isPlaying	KEYWORD2
-errorCode	KEYWORD2				
+init 	KEYWORD2
+on_off_motor	KEYWORD2
+set_ch_pos_spd	KEYWORD2 
+get_current_pos	KEYWORD2
+set_ch_initial_pos	KEYWORD2
+getResponseFromCmd	KEYWORD2
+getResponseFromCmdUntil	KEYWORD2 
 
 #######################################
 # Constants (LITERAL1)
 #######################################
-BUSY	LITERAL1
-SLEEPING	LITERAL1
-SERIAL_WRONG_STACK	LITERAL1
-CHECKSUM_ERR	LITERAL1
-FILE_OUT_OF_INDEX	LITERAL1
-FILE_NOT_FOUND	LITERAL1
-DATA_MISMATCH	LITERAL1
+CYTRON_SHIELD_SERVO_TIMEOUT_ERROR	LITERAL1
+CYTRON_SHIELD_SERVO_OK	LITERAL1
+CYTRON_SHIELD_SERVO_DATA_ERROR	LITERAL1
+CYTRON_SHIELD_SERVO_TIMEOUT	LITERAL1
+ALL_CHANNELS	LITERAL1
 
