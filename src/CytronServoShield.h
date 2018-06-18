@@ -35,7 +35,7 @@ public:
 	void init(Stream *serial, void (*ptr)()=[]{});
 	void on_off_motor(unsigned char ch, unsigned char on);
 	void set_ch_pos_spd(unsigned char ch, unsigned int pos, unsigned char spd);
-	int get_current_pos(unsigned char ch);
+	unsigned int get_current_pos(unsigned char ch);
 	void set_ch_initial_pos(unsigned char ch, unsigned int pos);
 
 private:
