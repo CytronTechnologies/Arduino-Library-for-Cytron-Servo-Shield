@@ -12,20 +12,38 @@ CytronServoShield	KEYWORD1
 # Methods and Functions (KEYWORD2)
 #######################################
 
-init 	KEYWORD2
-on_off_motor	KEYWORD2
-set_ch_pos_spd	KEYWORD2 
-get_current_pos	KEYWORD2
-set_ch_initial_pos	KEYWORD2
+init	KEYWORD2
+setChannel	KEYWORD2
+position	KEYWORD2
+angle	KEYWORD2
+getPosition	KEYWORD2
+getAngle	KEYWORD2
+setStartPosition	KEYWORD2
+setStartAngle	KEYWORD2
+registerErrorCallback	KEYWORD2
 getResponseFromCmd	KEYWORD2
-getResponseFromCmdUntil	KEYWORD2 
+getResponseFromCmdUntil	KEYWORD2
+on_off_motor  KEYWORD2
+set_ch_pos_spd  KEYWORD2 
+get_current_pos  KEYWORD2
+set_ch_initial_pos  KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
 #######################################
+ALL_CHANNELS	LITERAL1
+CHANNEL_1	LITERAL1
+CHANNEL_2	LITERAL1
+CHANNEL_3	LITERAL1
+CHANNEL_4	LITERAL1
+CHANNEL_5	LITERAL1
+CHANNEL_6	LITERAL1
+CHANNEL_7	LITERAL1
+CHANNEL_8	LITERAL1
+ON	LITERAL1
+OFF	LITERAL1
 CYTRON_SHIELD_SERVO_TIMEOUT_ERROR	LITERAL1
 CYTRON_SHIELD_SERVO_OK	LITERAL1
 CYTRON_SHIELD_SERVO_DATA_ERROR	LITERAL1
+CYTRON_SHIELD_SERVO_CHECKSUM_ERROR	LITERAL1
 CYTRON_SHIELD_SERVO_TIMEOUT	LITERAL1
-ALL_CHANNELS	LITERAL1
-
