@@ -105,7 +105,7 @@ void setup()
   delay(1000);
   
   // We try to move servo to 0 deg instantly
-  Serial.println(F("Move to position 1000 instantly."));
+  Serial.println(F("Move to angle 0 deg instantly."));
   servo.angle(CHANNEL_1, 0);
   // Wait until servo reaches around the target position
   while(servo.getAngle(CHANNEL_1) > 0 + 5);
