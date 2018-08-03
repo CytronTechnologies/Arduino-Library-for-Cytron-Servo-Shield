@@ -23,10 +23,10 @@ setStartAngle	KEYWORD2
 registerErrorCallback	KEYWORD2
 getResponseFromCmd	KEYWORD2
 getResponseFromCmdUntil	KEYWORD2
-on_off_motor  KEYWORD2
-set_ch_pos_spd  KEYWORD2 
-get_current_pos  KEYWORD2
-set_ch_initial_pos  KEYWORD2
+on_off_motor	KEYWORD2
+set_ch_pos_spd	KEYWORD2 
+get_current_pos	KEYWORD2
+set_ch_initial_pos	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
